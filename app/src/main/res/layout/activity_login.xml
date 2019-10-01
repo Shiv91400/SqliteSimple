@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhatt.vishal.sqlitesimpleapex.LoginActivity">
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etusername"
+        android:layout_alignStart="@+id/etusername"
+        android:layout_below="@+id/etusername"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Register Here !" />
+</RelativeLayout>
