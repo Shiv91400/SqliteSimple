@@ -29,7 +29,8 @@ public class HomeActivity extends AppCompatActivity {
         btdelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+// My name is prashnat, i am Benky
+// Captain Cool, kohli's Jabra FAN
                 AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
                 builder.setTitle("Alert");
                 builder.setMessage("Do you want to delete your account ?");
